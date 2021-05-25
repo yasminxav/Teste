@@ -11,7 +11,7 @@
             let notas = []
 
             for (let i = 0; i < 3; i++) {
-                notas[i] = prompt(`Digite a ${i + 1} nota`)
+                notas[i] = +prompt(`Digite a ${i + 1} nota`)
             }
             
             return notas
@@ -30,6 +30,7 @@
         let media = calculaMedia(notas)
 
         alert(`Média: ${media.toFixed(2)}`)
+        
     </script>
 </body>
 </html>

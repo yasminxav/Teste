@@ -15,9 +15,12 @@
 **git show** // Apresenta determinando ponto na história  
 **git clone** // Clonar um repositório  
 **git pull** // Puxar alterações do repositório remoto  
-**git branch** // Gerenciar novas linhas do tempo  
+**git branch** // Gerenciar novas linhas do tempo
+    git branch -D  // apagar branch
 **git checkout** // Manipula as linhas do tempo  
-**git reset** // Voltar para um ponto na linha do tempo  
+**git reset**
+    git reset <hash> --soft //Voltar um ponto na linha do tempo
+    git reset <hash> --hard // Voltar todos os pontos na linha do tempo  
 **git merge** // Unir as linhas do tempo    
 
 **fork** // Criar uma bifurcação de um repositório  
